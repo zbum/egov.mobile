@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" >
+
+	<TextView android:text="name" android:textSize="20dip" android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/name" android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+	
+	<TextView android:text="desc" android:textSize="20dip" android:textStyle="bold" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/description" android:gravity="top" android:layout_height="100dip" android:layout_width="fill_parent"/>
+
+    <TextView android:text="useYN" android:textSize="20dip" android:textStyle="bold" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <RadioGroup android:id="@+id/useYN" 
+        android:checkedButton="@+id/checkY"
+        android:orientation="horizontal" 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent">
+        <RadioButton android:id="@+id/checkY" android:text="Y"  android:layout_width="100dip"/>
+        <RadioButton android:id="@+id/checkN" android:text="N" android:layout_width="100dip"/>
+    </RadioGroup>
+    
+    <Button android:id="@+id/regButton"  android:text="@string/register" android:textSize="20dip" android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+</LinearLayout>

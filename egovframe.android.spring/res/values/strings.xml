@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Spring Android</string>
+<string name="message_error_network">네트워크에 문제가 있습니다. 잠시후 다시 시도하세요.</string>
+<string name="register">등록</string>
+</resources>
